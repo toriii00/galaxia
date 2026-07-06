@@ -117,7 +117,7 @@ function createTextTexture(text, colorHex, shadowHex) {
     return new THREE.CanvasTexture(canvas);
 }
 
-const texts = ["Love you", "Juntos", "Mi Amor", "Siempre"];
+const texts = ["Te amo", "Juntos", "<3", "Siempre"];
 const neonColors = [
     { color: "#ffffff", shadow: "#ff0055" }, // Rosa neón
     { color: "#ffffff", shadow: "#00f0ff" }, // Celeste neón
